@@ -5,8 +5,12 @@ export const LoginConstants = {
   USER_IS_LOGGING_IN: 'USER_IS_LOGGING_IN',
 };
 
-
 export const RegisterConstants = {
   REGISTER_USER_SUCCESS: 'REGISTER_USER_SUCCESS',
   REGISTER_USER_FAIL: 'REGISTER_USER_FAIL',
+};
+
+export const RedFlagConstants = {
+  VIEW_REDFLAGS_SUCCESS: 'VIEW_REDFLAGS_SUCCESS',
+  VIEW_REDFLAGS_FAIL: 'VIEW_REDFLAGS_FAIL',
 };
