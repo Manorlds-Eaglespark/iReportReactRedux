@@ -4,6 +4,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import theBannerImage from '../assets/images/take_action1.jpg';
 import signinImage from '../assets/images/new-user2.png';
 import registerUserAction from '../actions/auth/registerAction';
@@ -190,7 +191,7 @@ export class SignupComponent extends Component {
                 </div>
 
               </div>
-
+              <Link to="/"><h4>Home </h4></Link>
               <InfoComponent />
             </div>
 

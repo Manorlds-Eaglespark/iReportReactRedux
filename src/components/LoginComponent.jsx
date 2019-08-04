@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 import { toast } from 'react-toastify';
+import { Link } from 'react-router-dom';
 import loginUserAction from '../actions/auth/loginAction';
 import { toastFailure } from '../utils/toast';
 import theBannerImage from '../assets/images/take_action1.jpg';
@@ -139,7 +140,7 @@ export class LoginComponent extends Component {
                 </div>
 
               </div>
-
+              <Link to="/"><h4>Home </h4></Link>
               <InfoComponent />
 
             </div>

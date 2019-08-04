@@ -5,6 +5,7 @@ import Footer from './components/common/Footer';
 import history from './utils/history';
 import landingPageComponent from './components/landingPageComponent';
 import LoginComponent from './components/LoginComponent';
+import homePageComponent from './components/homePageComponent';
 import SignupComponent from './components/signupComponent';
 
 function Routes() {
@@ -14,6 +15,7 @@ function Routes() {
         <Route exact path="/" component={landingPageComponent} />
         <Route exact path="/login" component={LoginComponent} />
         <Route exact path="/signup" component={SignupComponent} />
+        <Route exact path="/home" component={homePageComponent} />
       </Switch>
       <Footer />
     </Router>
