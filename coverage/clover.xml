@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1564899540136" clover="3.2.0">
-  <project timestamp="1564899540137" name="All files">
-    <metrics statements="130" coveredstatements="115" conditionals="24" coveredconditionals="22" methods="43" coveredmethods="35" elements="197" coveredelements="172" complexity="0" loc="130" ncloc="130" packages="10" files="21" classes="21"/>
+<coverage generated="1564904787044" clover="3.2.0">
+  <project timestamp="1564904787044" name="All files">
+    <metrics statements="65" coveredstatements="64" conditionals="14" coveredconditionals="12" methods="22" coveredmethods="20" elements="101" coveredelements="96" complexity="0" loc="65" ncloc="65" packages="8" files="15" classes="15"/>
     <package name="src">
       <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="App.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/App.jsx">
+      <file name="App.jsx" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/App.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="10" count="1" type="stmt"/>
         <line num="15" count="1" type="stmt"/>
       </file>
-      <file name="Routes.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/Routes.js">
+      <file name="Routes.js" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/Routes.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
       </file>
-      <file name="store.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/store.js">
+      <file name="store.js" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/store.js">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
@@ -21,18 +21,15 @@
       </file>
     </package>
     <package name="src.actions">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="actionTypes.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/actions/actionTypes.js">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="11" type="stmt"/>
-        <line num="8" count="11" type="stmt"/>
-        <line num="14" count="11" type="stmt"/>
-        <line num="19" count="11" type="stmt"/>
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="actionTypes.js" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/actions/actionTypes.js">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="2" count="5" type="stmt"/>
       </file>
     </package>
     <package name="src.actions.auth">
-      <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
-      <file name="loginAction.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/actions/auth/loginAction.js">
+      <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <file name="loginAction.js" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/actions/auth/loginAction.js">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="7" count="4" type="stmt"/>
         <line num="10" count="4" type="stmt"/>
@@ -46,37 +43,10 @@
         <line num="24" count="1" type="stmt"/>
         <line num="25" count="1" type="stmt"/>
       </file>
-      <file name="registerAction.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/actions/auth/registerAction.js">
-        <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="8" count="4" type="stmt"/>
-        <line num="11" count="4" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.actions.redflags">
-      <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-      <file name="viewAllRedFlagsAction.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/actions/redflags/viewAllRedFlagsAction.js">
-        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="9" count="4" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="24" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-      </file>
     </package>
     <package name="src.components">
-      <metrics statements="63" coveredstatements="48" conditionals="10" coveredconditionals="10" methods="19" coveredmethods="12"/>
-      <file name="LoginComponent.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/components/LoginComponent.jsx">
+      <metrics statements="29" coveredstatements="28" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="7"/>
+      <file name="LoginComponent.jsx" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/components/LoginComponent.jsx">
         <metrics statements="27" coveredstatements="27" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
         <line num="17" count="7" type="stmt"/>
         <line num="18" count="7" type="stmt"/>
@@ -106,87 +76,47 @@
         <line num="153" count="3" type="stmt"/>
         <line num="158" count="3" type="stmt"/>
       </file>
-      <file name="homePageComponent.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/components/homePageComponent.jsx">
-        <metrics statements="17" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="18" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="33" count="0" type="stmt"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="35" count="0" type="stmt"/>
-        <line num="36" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="41" count="0" type="stmt"/>
-        <line num="42" count="0" type="stmt"/>
-        <line num="72" count="0" type="stmt"/>
-        <line num="121" count="3" type="stmt"/>
-        <line num="134" count="3" type="stmt"/>
-        <line num="138" count="3" type="stmt"/>
-        <line num="139" count="0" type="stmt"/>
-        <line num="140" count="0" type="stmt"/>
-      </file>
-      <file name="landingPageComponent.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/components/landingPageComponent.jsx">
+      <file name="landingPageComponent.jsx" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/components/landingPageComponent.jsx">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="8" count="3" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
       </file>
-      <file name="signupComponent.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/components/signupComponent.jsx">
-        <metrics statements="17" coveredstatements="17" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
-        <line num="15" count="3" type="stmt"/>
-        <line num="16" count="3" type="stmt"/>
-        <line num="28" count="3" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="35" count="3" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
-        <line num="40" count="1" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="52" count="1" type="stmt"/>
-        <line num="54" count="1" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
-        <line num="63" count="7" type="stmt"/>
-        <line num="64" count="7" type="stmt"/>
-        <line num="202" count="3" type="stmt"/>
-        <line num="207" count="3" type="stmt"/>
-      </file>
     </package>
     <package name="src.components.common">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="4"/>
-      <file name="Footer.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/components/common/Footer.jsx">
+      <file name="Footer.jsx" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/components/common/Footer.jsx">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
         <line num="5" count="1" type="stmt"/>
       </file>
-      <file name="InfoComponent.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/components/common/InfoComponent.jsx">
+      <file name="InfoComponent.jsx" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/components/common/InfoComponent.jsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="7" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
       </file>
-      <file name="Loader.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/components/common/Loader.jsx">
+      <file name="Loader.jsx" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/components/common/Loader.jsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="5" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
-        <line num="12" count="5" type="stmt"/>
-        <line num="16" count="5" type="stmt"/>
-      </file>
-      <file name="LogOutComponent.jsx" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/components/common/LogOutComponent.jsx">
-        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
-        <line num="4" count="4" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
         <line num="12" count="4" type="stmt"/>
         <line num="16" count="4" type="stmt"/>
+      </file>
+      <file name="LogOutComponent.jsx" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/components/common/LogOutComponent.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.reducers">
       <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      <file name="rootReducer.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/reducers/rootReducer.js">
+      <file name="rootReducer.js" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/reducers/rootReducer.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
     <package name="src.reducers.auth">
-      <metrics statements="10" coveredstatements="10" conditionals="8" coveredconditionals="8" methods="2" coveredmethods="2"/>
-      <file name="loginReducer.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/reducers/auth/loginReducer.js">
+      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+      <file name="loginReducer.js" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/reducers/auth/loginReducer.js">
         <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
         <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
         <line num="9" count="5" type="cond" truecount="3" falsecount="0"/>
@@ -194,35 +124,16 @@
         <line num="17" count="1" type="stmt"/>
         <line num="23" count="3" type="stmt"/>
       </file>
-      <file name="registerReducer.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/reducers/auth/registerReducer.js">
-        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="5" type="cond" truecount="3" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.reducers.redflags">
-      <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <file name="viewAllRedFlagsReducer.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/reducers/redflags/viewAllRedFlagsReducer.js">
-        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="cond" truecount="1" falsecount="0"/>
-        <line num="8" count="5" type="cond" truecount="3" falsecount="0"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="20" count="3" type="stmt"/>
-      </file>
     </package>
     <package name="src.utils">
       <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="2"/>
-      <file name="history.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/utils/history.js">
+      <file name="history.js" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/utils/history.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
-      <file name="toast.js" path="/Users/anorldmukone/Desktop/irepppppoooorter/iReportReactRedux/src/utils/toast.js">
+      <file name="toast.js" path="/Users/anorldmukone/Desktop/lms-react/iReportReactRedux/src/utils/toast.js">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="10" count="5" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
       </file>
     </package>
   </project>
