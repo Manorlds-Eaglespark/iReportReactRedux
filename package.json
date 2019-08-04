@@ -12,19 +12,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/andela/ah-frontend-kronos.git"
+    "url": "https://github.com/Manorlds-Eaglespark/iReportReactRedux.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/andela/ah-frontend-kronos/issues"
+    "url": "https://github.com/Manorlds-Eaglespark/iReportReactRedux/issues"
   },
-  "homepage": "https://github.com/andela/ah-frontend-kronos#readme",
+  "homepage": "https://github.com/Manorlds-Eaglespark/iReportReactRedux#readme",
   "dependencies": {
     "axios": "^0.19.0",
     "dotenv-webpack": "^1.7.0",
     "enzyme": "^3.10.0",
     "enzyme-adapter-react-16": "^1.14.0",
+    "express": "^4.17.1",
     "fetch-mock": "^7.3.6",
     "firebase": "^6.3.1",
     "history": "^4.9.0",
@@ -37,6 +38,7 @@
     "react-redux": "^7.1.0",
     "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
+    "react-test-renderer": "^16.8.6",
     "react-toastify": "^5.3.1",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.8",
@@ -52,7 +54,8 @@
       "!src/setupTests.js"
     ],
     "moduleNameMapper": {
-      "^.+\\.(css|less|scss|gif)$": "identity-obj-proxy"
+      ".+\\.(css|styl|less|sass|scss)$": "identity-obj-proxy",
+      ".+\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$": "identity-obj-proxy"
     }
   },
   "devDependencies": {
