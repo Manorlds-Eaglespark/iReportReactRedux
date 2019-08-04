@@ -42,6 +42,19 @@ exports[`<Routes /> matches snapshot 1`] = `
       exact={true}
       path="/login"
     />
+    <Route
+      component={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "WrappedComponent": [Function],
+          "compare": null,
+          "displayName": "Connect(SignupComponent)",
+          "type": [Function],
+        }
+      }
+      exact={true}
+      path="/signup"
+    />
   </Switch>
   <Footer />
 </Router>

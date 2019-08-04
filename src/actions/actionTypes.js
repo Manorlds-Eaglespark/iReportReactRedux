@@ -4,3 +4,9 @@ export const LoginConstants = {
   LOGIN_USER_FAILED: 'LOGIN_USER_FAILED',
   USER_IS_LOGGING_IN: 'USER_IS_LOGGING_IN',
 };
+
+
+export const RegisterConstants = {
+  REGISTER_USER_SUCCESS: 'REGISTER_USER_SUCCESS',
+  REGISTER_USER_FAIL: 'REGISTER_USER_FAIL',
+};
