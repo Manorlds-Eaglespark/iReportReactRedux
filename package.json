@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/Manorlds-Eaglespark/iReportReactRedux#readme",
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "coveralls": "^3.0.5",
     "dotenv-webpack": "^1.7.0",
     "enzyme": "^3.10.0",
